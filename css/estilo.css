@@ -1,0 +1,26 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+#usuario:valid, textarea:valid {
+	background:#9fe6a0;
+	
+	}
+	input:invalid, textarea:invalid {
+	background:#ffb26b;
+	}
+
+#password:valid, textarea:valid{
+background:#9fe6a0;
+}
+input:invalid, textarea:valid{
+	background:#ffb26b;
+}
